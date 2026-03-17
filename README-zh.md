@@ -140,6 +140,14 @@ pnpm build && pnpm start
 3. 配置环境变量（至少一个 LLM API Key）
 4. 部署
 
+### Cloudflare 部署（Workers 推荐，Pages 受限）
+
+如果你希望部署到 Cloudflare，可参考中文指南：
+
+- [`docs-cloudflare-zh.md`](./docs-cloudflare-zh.md)
+- [`wrangler.toml`](./wrangler.toml)（Workers 自动部署模板）
+- [`scripts/cloudflare-deploy.mjs`](./scripts/cloudflare-deploy.mjs)（自动识别 Worker 入口并部署）
+
 ### Docker 部署
 
 ```bash

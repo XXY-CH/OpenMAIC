@@ -13,7 +13,9 @@
     "start": "next start",
     "lint": "eslint",
     "check": "prettier . --check",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "cf:build": "pnpm dlx opennextjs-cloudflare build",
+    "cf:deploy": "node scripts/cloudflare-deploy.mjs"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^3.0.23",
