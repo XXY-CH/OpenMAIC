@@ -1,0 +1,12 @@
+name = "openmaic"
+main = ".open-next/worker.js"
+compatibility_date = "2026-03-17"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+[vars]
+# 建议按需修改，或在 Cloudflare Dashboard 的 Variables/Secrets 中配置
+DEFAULT_MODEL = "openai:gpt-4o-mini"
