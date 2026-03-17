@@ -35,7 +35,7 @@ pnpm build
 ### Step 1. 安装工具
 
 ```bash
-pnpm add -D wrangler opennextjs-cloudflare
+pnpm add -D wrangler @opennextjs/cloudflare
 pnpm dlx wrangler login
 ```
 

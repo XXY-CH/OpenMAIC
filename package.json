@@ -14,7 +14,7 @@
     "lint": "eslint",
     "check": "prettier . --check",
     "format": "prettier . --write",
-    "cf:build": "pnpm dlx opennextjs-cloudflare build",
+    "cf:build": "pnpm dlx @opennextjs/cloudflare@latest build",
     "cf:deploy": "node scripts/cloudflare-deploy.mjs"
   },
   "dependencies": {

@@ -13,7 +13,7 @@ const foundMain = candidates.find((p) => existsSync(p));
 
 if (!foundMain) {
   console.error(
-    '[cloudflare-deploy] 找不到 OpenNext Worker 入口文件。请先执行: pnpm dlx opennextjs-cloudflare build',
+    '[cloudflare-deploy] 找不到 OpenNext Worker 入口文件。请先执行: pnpm dlx @opennextjs/cloudflare@latest build',
   );
   process.exit(1);
 }
